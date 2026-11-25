@@ -1,0 +1,9 @@
+backend/data/students/
+backend/data/*.tmp
+__pycache__/
+
+.env
+.env.*
+!.env.example
+backend/data/*.sqlite3*
+backend/data/imports/

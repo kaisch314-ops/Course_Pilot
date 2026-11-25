@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/personalmodel.ts","./src/types.ts","./src/components/community.tsx","./src/components/courseassistant.tsx","./src/components/coursecard.tsx","./src/components/logingate.tsx","./src/components/paretochart.tsx","./src/components/profilepanel.tsx","./src/components/timetable.tsx"],"version":"5.9.3"}

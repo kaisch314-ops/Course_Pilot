@@ -1,0 +1,276 @@
+{
+  "term": "2026-2027-1",
+  "major": "金融学",
+  "college": "安泰经济与管理学院",
+  "grade": 2024,
+  "notice": "演示数据：课程信息与教师评价均为示例，不代表上海交通大学安泰经管学院真实开课情况。",
+  "completed": ["MATH1101", "MATH1201", "MATH2201", "ECON1101", "ECON2101", "ECON2102", "ACC2101", "STAT2101", "MGT1101", "PE1001"],
+  "graduation": { "必修": 78, "专业选修": 26, "通识": 22 },
+  "earned": { "必修": 61, "专业选修": 9, "通识": 16 },
+  "requirements": [
+    { "module": "必修", "min_credits": 12 },
+    { "module": "专业选修", "min_credits": 6 },
+    { "module": "通识", "min_credits": 2 }
+  ],
+  "plan": [
+    { "code": "FI3101", "module": "必修", "suggest_term": 5 },
+    { "code": "FI3102", "module": "必修", "suggest_term": 5 },
+    { "code": "FI3103", "module": "必修", "suggest_term": 5 },
+    { "code": "FI3104", "module": "必修", "suggest_term": 5 },
+    { "code": "FI3201", "module": "专业选修", "suggest_term": 5 },
+    { "code": "FI3202", "module": "专业选修", "suggest_term": 5 },
+    { "code": "FI3203", "module": "专业选修", "suggest_term": 5 },
+    { "code": "FI3204", "module": "专业选修", "suggest_term": 5 },
+    { "code": "FI3205", "module": "专业选修", "suggest_term": 5 },
+    { "code": "FI3206", "module": "专业选修", "suggest_term": 5 },
+    { "code": "FI3207", "module": "专业选修", "suggest_term": 5 },
+    { "code": "FI3208", "module": "专业选修", "suggest_term": 5 },
+    { "code": "GE2201", "module": "通识", "suggest_term": 5 },
+    { "code": "GE2202", "module": "通识", "suggest_term": 5 },
+    { "code": "GE2203", "module": "通识", "suggest_term": 5 },
+    { "code": "GE2204", "module": "通识", "suggest_term": 5 }
+  ],
+  "courses": [
+    {
+      "code": "FI3101", "name": "公司金融", "credits": 3, "category": "必修",
+      "prereqs": ["ACC2101", "ECON1101"], "tags": ["金融", "估值", "核心"],
+      "profile": {
+        "weekly_hours": 7, "difficulty": 3.6, "grading": 3.8, "style": "板书 + 案例",
+        "attendance": true, "assessment": { "期末": 50, "案例": 30, "平时": 20 },
+        "sample_size": 214, "confidence": 0.91,
+        "summary": "从资本预算讲到资本结构与股利政策，三次哈佛式案例讨论，期末考试计算量大。"
+      }
+    },
+    {
+      "code": "FI3102", "name": "投资学", "credits": 3, "category": "必修",
+      "prereqs": ["ECON2101", "STAT2101"], "tags": ["金融", "量化", "核心"],
+      "profile": {
+        "weekly_hours": 8, "difficulty": 3.9, "grading": 3.6, "style": "推导 + 实证",
+        "attendance": false, "assessment": { "期末": 45, "作业": 30, "组合报告": 25 },
+        "sample_size": 232, "confidence": 0.9,
+        "summary": "有效前沿、CAPM、因子模型一条线讲下来，最后用真实行情做一次组合回测。"
+      }
+    },
+    {
+      "code": "FI3103", "name": "计量经济学", "credits": 3, "category": "必修",
+      "prereqs": ["STAT2101", "MATH2201"], "tags": ["计量", "数学", "实证"],
+      "profile": {
+        "weekly_hours": 9, "difficulty": 4.2, "grading": 3.5, "style": "推导 + 代码",
+        "attendance": true, "assessment": { "期末": 45, "编程作业": 35, "平时": 20 },
+        "sample_size": 196, "confidence": 0.88,
+        "summary": "从 OLS 推导到面板数据与工具变量，作业用 Stata 或 R 复现实证论文。"
+      }
+    },
+    {
+      "code": "FI3104", "name": "货币银行学", "credits": 3, "category": "必修",
+      "prereqs": ["ECON2102"], "tags": ["金融", "宏观", "理论"],
+      "profile": {
+        "weekly_hours": 5, "difficulty": 2.9, "grading": 4.2, "style": "PPT 串讲",
+        "attendance": true, "assessment": { "期末": 60, "作业": 25, "平时": 15 },
+        "sample_size": 258, "confidence": 0.89,
+        "summary": "以中国货币政策实践为主线，讲利率、汇率与银行体系，背诵内容偏多。"
+      }
+    },
+    {
+      "code": "FI3201", "name": "金融工程", "credits": 3, "category": "专业选修",
+      "prereqs": ["STAT2101", "MATH2201"], "tags": ["金融", "数学", "进阶", "热门"],
+      "profile": {
+        "weekly_hours": 8, "difficulty": 4.3, "grading": 3.9, "style": "推导 + 代码",
+        "attendance": false, "assessment": { "期末": 45, "项目": 35, "作业": 20 },
+        "sample_size": 148, "confidence": 0.83,
+        "summary": "期权定价、希腊字母、结构化产品设计，项目是用 Python 给一个雪球产品定价。"
+      }
+    },
+    {
+      "code": "FI3202", "name": "固定收益证券", "credits": 3, "category": "专业选修",
+      "prereqs": ["STAT2101"], "tags": ["金融", "量化", "实务"],
+      "profile": {
+        "weekly_hours": 7, "difficulty": 3.7, "grading": 4.0, "style": "案例 + Excel",
+        "attendance": false, "assessment": { "期末": 50, "建模作业": 30, "平时": 20 },
+        "sample_size": 132, "confidence": 0.8,
+        "summary": "久期、凸性、信用利差，用 Excel 做债券组合的利率风险度量，实务感强。"
+      }
+    },
+    {
+      "code": "FI3203", "name": "国际金融", "credits": 3, "category": "专业选修",
+      "prereqs": ["ECON2102"], "tags": ["金融", "宏观", "国际"],
+      "profile": {
+        "weekly_hours": 5, "difficulty": 3.0, "grading": 4.4, "style": "案例讲授",
+        "attendance": false, "assessment": { "期末": 55, "小组报告": 30, "平时": 15 },
+        "sample_size": 176, "confidence": 0.82,
+        "summary": "汇率决定、国际收支、货币危机，讲课时事结合多，考试以简答与案例分析为主。"
+      }
+    },
+    {
+      "code": "FI3204", "name": "行为金融学", "credits": 3, "category": "专业选修",
+      "prereqs": ["ECON2101"], "tags": ["金融", "行为", "热门"],
+      "profile": {
+        "weekly_hours": 4, "difficulty": 2.6, "grading": 4.6, "style": "论文研讨",
+        "attendance": true, "assessment": { "期末": 40, "文献汇报": 40, "平时": 20 },
+        "sample_size": 164, "confidence": 0.78,
+        "summary": "以经典行为金融论文为主线，课堂讨论多，给分宽松，但要做两次文献汇报。"
+      }
+    },
+    {
+      "code": "FI3205", "name": "金融科技与区块链", "credits": 3, "category": "专业选修",
+      "prereqs": ["STAT2101"], "tags": ["金融", "编程", "前沿"],
+      "profile": {
+        "weekly_hours": 7, "difficulty": 3.4, "grading": 4.3, "style": "项目驱动",
+        "attendance": false, "assessment": { "项目": 55, "期末": 30, "平时": 15 },
+        "sample_size": 118, "confidence": 0.75,
+        "summary": "支付、借贷、智能合约各讲一块，项目做一个链上借贷协议的原型并写商业计划书。"
+      }
+    },
+    {
+      "code": "FI3206", "name": "公司估值与并购", "credits": 3, "category": "专业选修",
+      "prereqs": ["ACC2101"], "tags": ["金融", "估值", "实务", "热门"],
+      "profile": {
+        "weekly_hours": 6, "difficulty": 3.5, "grading": 4.2, "style": "案例驱动",
+        "attendance": true, "assessment": { "期末": 40, "估值模型": 40, "课堂": 20 },
+        "sample_size": 189, "confidence": 0.85,
+        "summary": "DCF、可比公司、可比交易三种方法，最后对一个真实并购案做完整估值。"
+      }
+    },
+    {
+      "code": "FI3207", "name": "衍生品定价", "credits": 3, "category": "专业选修",
+      "prereqs": ["MATH2201"], "tags": ["金融", "数学", "进阶"],
+      "profile": {
+        "weekly_hours": 8, "difficulty": 4.4, "grading": 3.7, "style": "严格推导",
+        "attendance": false, "assessment": { "期末": 60, "作业": 30, "平时": 10 },
+        "sample_size": 84, "confidence": 0.73,
+        "summary": "布朗运动、伊藤引理、Black-Scholes 全推导，数学要求高，适合想读金融工程方向的人。"
+      }
+    },
+    {
+      "code": "FI3208", "name": "商业银行经营管理", "credits": 3, "category": "专业选修",
+      "prereqs": ["ECON2102"], "tags": ["金融", "实务", "银行"],
+      "profile": {
+        "weekly_hours": 4, "difficulty": 2.7, "grading": 4.5, "style": "案例讲授",
+        "attendance": true, "assessment": { "期末": 50, "小组作业": 35, "平时": 15 },
+        "sample_size": 143, "confidence": 0.8,
+        "summary": "资产负债管理、信贷风险、巴塞尔协议，课程轻松，小组作业是做一家银行的年报分析。"
+      }
+    },
+    {
+      "code": "GE2201", "name": "经济思想史", "credits": 2, "category": "通识",
+      "prereqs": [], "tags": ["人文", "经济", "通识"],
+      "profile": {
+        "weekly_hours": 3, "difficulty": 2.1, "grading": 4.6, "style": "讲授 + 读书",
+        "attendance": false, "assessment": { "期末": 50, "读书报告": 35, "平时": 15 },
+        "sample_size": 207, "confidence": 0.84,
+        "summary": "从亚当·斯密讲到凯恩斯，指定书目要真读，读书报告抄不得。"
+      }
+    },
+    {
+      "code": "GE2202", "name": "商业伦理", "credits": 2, "category": "通识",
+      "prereqs": [], "tags": ["人文", "伦理", "通识"],
+      "profile": {
+        "weekly_hours": 2, "difficulty": 1.8, "grading": 4.7, "style": "案例讨论",
+        "attendance": true, "assessment": { "期末": 40, "课堂讨论": 40, "出勤": 20 },
+        "sample_size": 231, "confidence": 0.86,
+        "summary": "以商业丑闻案例为主，课堂发言计分，适合愿意开口的人刷分。"
+      }
+    },
+    {
+      "code": "GE2203", "name": "心理学与决策", "credits": 2, "category": "通识",
+      "prereqs": [], "tags": ["人文", "决策", "通识", "热门"],
+      "profile": {
+        "weekly_hours": 3, "difficulty": 2.3, "grading": 4.5, "style": "实验 + 讲授",
+        "attendance": false, "assessment": { "期末": 45, "实验报告": 35, "平时": 15 },
+        "sample_size": 266, "confidence": 0.87,
+        "summary": "讲启发式与偏误，和金融决策能互相印证，有两次简单行为实验。"
+      }
+    },
+    {
+      "code": "GE2204", "name": "学术英语写作", "credits": 2, "category": "通识",
+      "prereqs": [], "tags": ["语言", "实用", "通识"],
+      "profile": {
+        "weekly_hours": 3, "difficulty": 2.6, "grading": 4.3, "style": "工作坊",
+        "attendance": true, "assessment": { "过程写作": 60, "期末": 25, "出勤": 15 },
+        "sample_size": 102, "confidence": 0.71,
+        "summary": "小班工作坊，每两周交一稿并互评，对出国申请和英文论文写作帮助直接。"
+      }
+    }
+  ],
+  "offerings": [
+    { "id": "FI3101-01", "code": "FI3101", "teacher": "陆明轩", "teacher_rating": 4.8, "admit_rate": 0.28, "capacity": 90, "enrolled": 90,
+      "sessions": [ { "day": 1, "start": 1, "end": 2, "location": "安泰楼 A301" }, { "day": 3, "start": 3, "end": 4, "location": "安泰楼 A301" } ] },
+    { "id": "FI3101-02", "code": "FI3101", "teacher": "周雅琴", "teacher_rating": 4.2, "admit_rate": 0.57, "capacity": 90, "enrolled": 71,
+      "sessions": [ { "day": 2, "start": 3, "end": 4, "location": "安泰楼 B202" }, { "day": 4, "start": 1, "end": 2, "location": "安泰楼 B202" } ] },
+
+    { "id": "FI3102-01", "code": "FI3102", "teacher": "沈立诚", "teacher_rating": 4.6, "admit_rate": 0.31, "capacity": 100, "enrolled": 98,
+      "sessions": [ { "day": 1, "start": 3, "end": 4, "location": "安泰楼 A201" }, { "day": 4, "start": 6, "end": 7, "location": "安泰楼 A201" } ] },
+    { "id": "FI3102-02", "code": "FI3102", "teacher": "何静怡", "teacher_rating": 4.1, "admit_rate": 0.62, "capacity": 100, "enrolled": 66,
+      "sessions": [ { "day": 2, "start": 1, "end": 2, "location": "安泰楼 B105" }, { "day": 5, "start": 3, "end": 4, "location": "安泰楼 B105" } ] },
+
+    { "id": "FI3103-01", "code": "FI3103", "teacher": "顾承宇", "teacher_rating": 4.7, "admit_rate": 0.26, "capacity": 80, "enrolled": 80,
+      "sessions": [ { "day": 3, "start": 1, "end": 2, "location": "安泰楼 C401" }, { "day": 5, "start": 8, "end": 9, "location": "安泰楼 C401" } ] },
+    { "id": "FI3103-02", "code": "FI3103", "teacher": "许文倩", "teacher_rating": 3.9, "admit_rate": 0.74, "capacity": 80, "enrolled": 52,
+      "sessions": [ { "day": 1, "start": 6, "end": 7, "location": "安泰楼 C305" }, { "day": 4, "start": 3, "end": 4, "location": "安泰楼 C305" } ] },
+
+    { "id": "FI3104-01", "code": "FI3104", "teacher": "马国栋", "teacher_rating": 4.4, "admit_rate": 0.46, "capacity": 110, "enrolled": 96,
+      "sessions": [ { "day": 1, "start": 8, "end": 9, "location": "安泰楼 A102" }, { "day": 3, "start": 8, "end": 9, "location": "安泰楼 A102" } ] },
+    { "id": "FI3104-02", "code": "FI3104", "teacher": "林若菲", "teacher_rating": 4.0, "admit_rate": 0.81, "capacity": 110, "enrolled": 68,
+      "sessions": [ { "day": 2, "start": 10, "end": 11, "location": "安泰楼 B303" }, { "day": 5, "start": 6, "end": 7, "location": "安泰楼 B303" } ] },
+
+    { "id": "FI3201-01", "code": "FI3201", "teacher": "唐启帆", "teacher_rating": 4.8, "admit_rate": 0.19, "capacity": 70, "enrolled": 70,
+      "sessions": [ { "day": 1, "start": 6, "end": 7, "location": "安泰楼 C201" }, { "day": 3, "start": 6, "end": 7, "location": "安泰楼 C201" } ] },
+    { "id": "FI3201-02", "code": "FI3201", "teacher": "邓雨桐", "teacher_rating": 4.0, "admit_rate": 0.55, "capacity": 70, "enrolled": 47,
+      "sessions": [ { "day": 2, "start": 3, "end": 4, "location": "安泰楼 C208" }, { "day": 4, "start": 10, "end": 11, "location": "安泰楼 C208" } ] },
+
+    { "id": "FI3202-01", "code": "FI3202", "teacher": "秦子昂", "teacher_rating": 4.5, "admit_rate": 0.38, "capacity": 80, "enrolled": 68,
+      "sessions": [ { "day": 2, "start": 8, "end": 9, "location": "安泰楼 B401" }, { "day": 4, "start": 3, "end": 4, "location": "安泰楼 B401" } ] },
+    { "id": "FI3202-02", "code": "FI3202", "teacher": "谢婉清", "teacher_rating": 3.8, "admit_rate": 0.79, "capacity": 80, "enrolled": 52,
+      "sessions": [ { "day": 3, "start": 10, "end": 11, "location": "安泰楼 B405" }, { "day": 5, "start": 1, "end": 2, "location": "安泰楼 B405" } ] },
+
+    { "id": "FI3203-01", "code": "FI3203", "teacher": "程颂", "teacher_rating": 4.6, "admit_rate": 0.42, "capacity": 90, "enrolled": 74,
+      "sessions": [ { "day": 5, "start": 1, "end": 2, "location": "安泰楼 A405" }, { "day": 3, "start": 10, "end": 11, "location": "安泰楼 A405" } ] },
+    { "id": "FI3203-02", "code": "FI3203", "teacher": "苏沐", "teacher_rating": 4.0, "admit_rate": 0.86, "capacity": 90, "enrolled": 55,
+      "sessions": [ { "day": 1, "start": 3, "end": 4, "location": "安泰楼 A407" }, { "day": 4, "start": 8, "end": 9, "location": "安泰楼 A407" } ] },
+
+    { "id": "FI3204-01", "code": "FI3204", "teacher": "叶知秋", "teacher_rating": 4.9, "admit_rate": 0.33, "capacity": 70, "enrolled": 69,
+      "sessions": [ { "day": 4, "start": 1, "end": 2, "location": "安泰楼 B201" }, { "day": 2, "start": 6, "end": 7, "location": "安泰楼 B201" } ] },
+    { "id": "FI3204-02", "code": "FI3204", "teacher": "罗一鸣", "teacher_rating": 3.7, "admit_rate": 0.88, "capacity": 70, "enrolled": 41,
+      "sessions": [ { "day": 5, "start": 3, "end": 4, "location": "安泰楼 B205" }, { "day": 1, "start": 1, "end": 2, "location": "安泰楼 B205" } ] },
+
+    { "id": "FI3205-01", "code": "FI3205", "teacher": "韩卓", "teacher_rating": 4.5, "admit_rate": 0.49, "capacity": 55, "enrolled": 43,
+      "sessions": [ { "day": 2, "start": 10, "end": 11, "location": "安泰楼 C102" }, { "day": 4, "start": 1, "end": 2, "location": "安泰楼 C102" } ] },
+    { "id": "FI3205-02", "code": "FI3205", "teacher": "邱壑", "teacher_rating": 3.9, "admit_rate": 0.77, "capacity": 55, "enrolled": 38,
+      "sessions": [ { "day": 3, "start": 1, "end": 2, "location": "安泰楼 C105" }, { "day": 5, "start": 10, "end": 11, "location": "安泰楼 C105" } ] },
+
+    { "id": "FI3206-01", "code": "FI3206", "teacher": "闻人悦", "teacher_rating": 4.7, "admit_rate": 0.24, "capacity": 80, "enrolled": 80,
+      "sessions": [ { "day": 1, "start": 10, "end": 11, "location": "安泰楼 A305" }, { "day": 3, "start": 1, "end": 2, "location": "安泰楼 A305" } ] },
+    { "id": "FI3206-02", "code": "FI3206", "teacher": "胡绍", "teacher_rating": 4.1, "admit_rate": 0.66, "capacity": 80, "enrolled": 58,
+      "sessions": [ { "day": 4, "start": 6, "end": 7, "location": "安泰楼 A308" }, { "day": 2, "start": 1, "end": 2, "location": "安泰楼 A308" } ] },
+
+    { "id": "FI3207-01", "code": "FI3207", "teacher": "简牧", "teacher_rating": 4.6, "admit_rate": 0.35, "capacity": 60, "enrolled": 52,
+      "sessions": [ { "day": 3, "start": 3, "end": 4, "location": "安泰楼 C301" }, { "day": 5, "start": 10, "end": 11, "location": "安泰楼 C301" } ] },
+    { "id": "FI3207-02", "code": "FI3207", "teacher": "白泽", "teacher_rating": 3.8, "admit_rate": 0.82, "capacity": 60, "enrolled": 39,
+      "sessions": [ { "day": 1, "start": 6, "end": 7, "location": "安泰楼 C305" }, { "day": 4, "start": 10, "end": 11, "location": "安泰楼 C305" } ] },
+
+    { "id": "FI3208-01", "code": "FI3208", "teacher": "邵嘉禾", "teacher_rating": 4.4, "admit_rate": 0.64, "capacity": 90, "enrolled": 62,
+      "sessions": [ { "day": 2, "start": 1, "end": 2, "location": "安泰楼 B501" }, { "day": 5, "start": 6, "end": 7, "location": "安泰楼 B501" } ] },
+    { "id": "FI3208-02", "code": "FI3208", "teacher": "汤宁", "teacher_rating": 4.2, "admit_rate": 0.85, "capacity": 90, "enrolled": 54,
+      "sessions": [ { "day": 4, "start": 8, "end": 9, "location": "安泰楼 B503" }, { "day": 1, "start": 3, "end": 4, "location": "安泰楼 B503" } ] },
+
+    { "id": "GE2201-01", "code": "GE2201", "teacher": "严修远", "teacher_rating": 4.5, "admit_rate": 0.61, "capacity": 120, "enrolled": 92,
+      "sessions": [ { "day": 3, "start": 8, "end": 9, "location": "人文楼 2-301" } ] },
+    { "id": "GE2201-02", "code": "GE2201", "teacher": "李慕之", "teacher_rating": 4.1, "admit_rate": 0.8, "capacity": 120, "enrolled": 78,
+      "sessions": [ { "day": 5, "start": 6, "end": 7, "location": "人文楼 2-305" } ] },
+
+    { "id": "GE2202-01", "code": "GE2202", "teacher": "温言", "teacher_rating": 4.8, "admit_rate": 0.4, "capacity": 100, "enrolled": 95,
+      "sessions": [ { "day": 2, "start": 3, "end": 4, "location": "人文楼 1-201" } ] },
+    { "id": "GE2202-02", "code": "GE2202", "teacher": "许清和", "teacher_rating": 4.4, "admit_rate": 0.73, "capacity": 100, "enrolled": 64,
+      "sessions": [ { "day": 4, "start": 8, "end": 9, "location": "人文楼 1-205" } ] },
+
+    { "id": "GE2203-01", "code": "GE2203", "teacher": "沈砚", "teacher_rating": 4.9, "admit_rate": 0.36, "capacity": 100, "enrolled": 98,
+      "sessions": [ { "day": 5, "start": 3, "end": 4, "location": "人文楼 3-108" } ] },
+    { "id": "GE2203-02", "code": "GE2203", "teacher": "郑微", "teacher_rating": 4.6, "admit_rate": 0.84, "capacity": 100, "enrolled": 58,
+      "sessions": [ { "day": 1, "start": 10, "end": 11, "location": "人文楼 3-112" } ] },
+
+    { "id": "GE2204-01", "code": "GE2204", "teacher": "Emily Hart", "teacher_rating": 4.5, "admit_rate": 0.34, "capacity": 30, "enrolled": 30,
+      "sessions": [ { "day": 4, "start": 10, "end": 11, "location": "外语楼 3-205" } ] },
+    { "id": "GE2204-02", "code": "GE2204", "teacher": "陈默", "teacher_rating": 4.1, "admit_rate": 0.7, "capacity": 30, "enrolled": 22,
+      "sessions": [ { "day": 3, "start": 10, "end": 11, "location": "外语楼 3-207" } ] }
+  ]
+}
